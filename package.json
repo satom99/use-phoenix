@@ -1,0 +1,29 @@
+{
+  "name": "use-phoenix",
+  "version": "0.1.0",
+  "author": "Santiago Tortosa",
+  "license": "Apache 2.0",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satom99/use-phoenix"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.2",
+    "webpack-cli": "^3.1.2",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.4",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.2",
+    "phoenix": "^1.4.0",
+    "webpack": "^4.19.1"
+  }
+}
